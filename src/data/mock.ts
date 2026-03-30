@@ -67,50 +67,6 @@ export const MOCK_PROJECTS: Project[] = [
     location: 'Santiago, Región Metropolitana',
     created_at: '2025-11-12T14:00:00.000Z',
   },
-  {
-    id: '4',
-    title: 'Edificio Ñuñoa Connect',
-    slug: 'edificio-nunoa-connect',
-    description:
-      'Mixed-use con locales comerciales en primer piso y 40 departamentos. Metro cercano y alta conectividad hacia el centro y hacia La Reina.',
-    short_description: 'Mixed-use residencial-comercial junto a eje de transporte.',
-    category: 'Residencial',
-    status: 'Financiando',
-    image_url:
-      'https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    target_amount: 3_100_000_000,
-    raised_amount: 890_000_000,
-    min_investment: 750_000,
-    estimated_return_min: 11,
-    estimated_return_max: 15,
-    annual_return: 12.4,
-    duration_months: 20,
-    deadline: '2027-03-01',
-    location: 'Ñuñoa, Región Metropolitana',
-    created_at: '2026-02-18T09:00:00.000Z',
-  },
-  {
-    id: '5',
-    title: 'Plaza O’Higgins Lofts',
-    slug: 'plaza-ohiggins-lofts',
-    description:
-      'Rehabilitación de edificio patrimonial convertido en lofts. Proyecto finalizado con rentas estables y venta de últimas unidades.',
-    short_description: 'Lofts en edificio patrimonio recuperado.',
-    category: 'Residencial',
-    status: 'Finalizado',
-    image_url:
-      'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    target_amount: 950_000_000,
-    raised_amount: 950_000_000,
-    min_investment: 400_000,
-    estimated_return_min: 8,
-    estimated_return_max: 11,
-    annual_return: 9.2,
-    duration_months: 14,
-    deadline: null,
-    location: 'Santiago, Región Metropolitana',
-    created_at: '2025-06-01T11:00:00.000Z',
-  },
 ];
 
 export const MOCK_TESTIMONIALS: Testimonial[] = [

@@ -30,7 +30,7 @@ export default function ProjectsPage() {
       <div className="container-max px-4 sm:px-6 lg:px-8">
         <div className="mb-8 sm:mb-10 lg:mb-12">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
-            Marketplace de proyectos
+            Proyectos
           </h1>
           <p className="text-gray-500 text-sm sm:text-base lg:text-lg">
             Explora todos los proyectos disponibles en nuestra plataforma. Desde oportunidades de inversión activas hasta proyectos en construcción y propiedades finalizadas.
