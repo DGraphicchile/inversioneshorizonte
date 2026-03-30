@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Building2, Mail, Phone, Clock, MapPin, Instagram, Facebook, Linkedin } from 'lucide-react';
+import { Mail, Phone, Clock, MapPin, Instagram, Facebook, Linkedin } from 'lucide-react';
 
 const legalLinks = [
   { label: 'Términos de inversión', href: '#' },
@@ -22,9 +22,12 @@ export default function Footer() {
       <div className="container-max px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
           <div>
-            <Link to="/" className="flex items-center gap-2 mb-4 sm:mb-6">
-              <Building2 className="w-5 h-5 sm:w-6 sm:h-6 text-brand-400" />
-              <span className="text-base sm:text-lg font-bold text-white">Inversiones Horizonte</span>
+            <Link to="/" className="inline-block mb-4 sm:mb-6">
+              <img
+                src="/brand/logo-blanco.svg"
+                alt="Inversiones Horizonte"
+                className="block h-12 w-auto sm:h-14 md:h-[3.75rem] object-contain object-left"
+              />
             </Link>
             <div className="space-y-2.5 sm:space-y-3 text-xs sm:text-sm">
               <a href="mailto:contacto@inversioneshorizonte.cl" className="flex items-center gap-2 hover:text-white transition-colors">
@@ -90,16 +93,9 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-10 sm:mt-12 pt-6 sm:pt-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 sm:gap-6 text-xs text-gray-500">
-              <span>Regulado por CMF</span>
-              <span>Empresa B Certificada</span>
-              <span>CORFO Startup</span>
-            </div>
-            <p className="text-xs text-gray-500 text-center md:text-right">
-              &copy; {new Date().getFullYear()} Inversiones Horizonte. Todos los derechos reservados.
-            </p>
-          </div>
+          <p className="text-xs text-gray-500 text-center md:text-right">
+            &copy; {new Date().getFullYear()} Inversiones Horizonte. Todos los derechos reservados.
+          </p>
         </div>
       </div>
     </footer>

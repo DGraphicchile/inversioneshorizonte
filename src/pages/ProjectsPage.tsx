@@ -4,7 +4,7 @@ import { Search } from 'lucide-react';
 import { getProjects } from '../data/mock';
 import ProjectCard from '../components/ui/ProjectCard';
 
-const filters = ['Todos', 'Financiando', 'Activo', 'En ejecución', 'Finalizado'];
+const filters = ['Todos', 'En financiamiento', 'Financiado', 'Finalizado'];
 
 export default function ProjectsPage() {
   const [searchParams, setSearchParams] = useSearchParams();

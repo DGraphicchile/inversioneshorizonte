@@ -4,6 +4,8 @@ import type { Project } from '../../types';
 
 const statusColors: Record<string, string> = {
   Financiando: 'bg-brand-500 text-white',
+  'En financiamiento': 'bg-brand-500 text-white',
+  Financiado: 'bg-success-200 text-success-800',
   Activo: 'bg-success-200 text-success-800',
   'En ejecución': 'bg-yellow-100 text-yellow-800',
   Finalizado: 'bg-gray-100 text-gray-600',

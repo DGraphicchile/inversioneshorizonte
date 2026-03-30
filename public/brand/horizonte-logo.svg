@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1217.87 368.81">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: ASSAVesta, 'ASSA Vesta';
+        font-size: 176.77px;
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        fill: #0f3584;
+      }
+
+      .cls-3 {
+        fill: #1a418a;
+      }
+
+      .cls-4 {
+        fill: #2d549c;
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_9-2);
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_9);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_9" data-name="Degradado sin nombre 9" x1=".04" y1="135.57" x2="390.45" y2="135.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a438e"/>
+      <stop offset="1" stop-color="#3d79d2"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_9-2" data-name="Degradado sin nombre 9" x1="60.1" y1="368.14" x2="366.24" y2="218.28" xlink:href="#Degradado_sin_nombre_9"/>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g>
+        <g>
+          <path class="cls-6" d="M.04,109.68v161.46s93.26-5.97,171.42-48.84c45.69-25.06,144.51-57.81,211.29-91.69,0,0,34.88-127.57-43.85-130.56-78.74-2.99-152.49,144.51-152.49,144.51,0,0-33.89-24.92-186.37-34.88Z"/>
+          <path class="cls-2" d="M112.52,247.89s50-44.9,73.9-103.33l-5.62-3.13S124.57,250.11,0,269.27l.04,1.86s46.25-1.75,112.48-23.24h0Z"/>
+          <path class="cls-4" d="M120.95,244.32s174.41-92.23,261.8-113.72c0,0-242.41,109.27-261.8,113.72Z"/>
+        </g>
+        <g>
+          <path class="cls-5" d="M28.42,310.13s53.82,61.79,131.56,57.81,163.45-26.91,209.3-183.38c0,0-44.85,1.99-137.54,49.83s-119.6,82.72-203.32,75.75Z"/>
+          <path class="cls-3" d="M369.74,185.15s-54.38,158.12-200.1,165.89c-14.77.79-29.59-.93-43.85-4.85-19-5.22-46.47-15.41-68.85-34.25l-28.06-1.22s54.75,63.12,128.61,57.76c100.15-7.27,166.38-37.15,212.24-183.33Z"/>
+        </g>
+      </g>
+      <text class="cls-1" transform="translate(432.97 292.12) scale(1.06 .87)"><tspan x="0" y="0">Horizonte</tspan></text>
+    </g>
+  </g>
+</svg>

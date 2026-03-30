@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, Building2, LayoutDashboard, LogOut } from 'lucide-react';
+import { Menu, X, LayoutDashboard, LogOut } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 
 const mainLinks = [
@@ -25,15 +25,19 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
+    <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
       <div className="container-max px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="relative">
-              <div className="absolute inset-0 bg-brand-500/20 rounded-lg blur-md group-hover:blur-lg transition-all" />
-              <Building2 className="relative w-6 h-6 sm:w-7 sm:h-7 text-brand-500 transition-all group-hover:scale-110 group-hover:rotate-6" />
-            </div>
-            <span className="text-base sm:text-lg lg:text-xl font-bold bg-gradient-to-r from-dark to-brand-600 bg-clip-text text-transparent tracking-tight">Inversiones Horizonte</span>
+        <div className="flex items-center justify-between min-h-[4.5rem] sm:min-h-20 py-2 sm:py-2.5 gap-4">
+          <Link
+            to="/"
+            className="flex items-center shrink-0 bg-transparent p-0 shadow-none ring-0 outline-none focus-visible:ring-2 focus-visible:ring-brand-500/40 focus-visible:ring-offset-2 rounded-sm"
+          >
+            <img
+              src="/brand/horizonte-logo.svg"
+              alt="Inversiones Horizonte"
+              className="block h-14 w-auto sm:h-16 md:h-[4.25rem] object-contain object-left bg-transparent shadow-none ring-0"
+              decoding="async"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
@@ -119,7 +123,7 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="lg:hidden border-t border-gray-100 bg-white max-h-[calc(100vh-4rem)] overflow-y-auto">
+        <div className="lg:hidden border-t border-gray-100 bg-white max-h-[calc(100vh-5.5rem)] overflow-y-auto">
           <div className="px-4 sm:px-6 py-4 space-y-1">
             {mainLinks.map((link) => (
               <Link

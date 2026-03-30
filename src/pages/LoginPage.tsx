@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Building2, Eye, EyeOff, ArrowRight, Home } from 'lucide-react';
+import { Eye, EyeOff, ArrowRight, Home } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 export default function LoginPage() {
@@ -32,7 +32,11 @@ export default function LoginPage() {
         />
         <div className="relative z-10 flex flex-col justify-between p-12 w-full">
           <Link to="/" className="flex items-center gap-2">
-            <Building2 className="w-8 h-8 text-white" />
+            <img
+              src="/brand/horizonte-icon.png"
+              alt="Horizonte"
+              className="h-8 w-8 object-contain"
+            />
             <span className="text-xl font-bold text-white">Inversiones Horizonte</span>
           </Link>
           <div>
@@ -74,7 +78,11 @@ export default function LoginPage() {
         <div className="w-full max-w-md">
           <div className="lg:hidden flex items-center gap-2 mb-10">
             <Link to="/" className="flex items-center gap-2">
-              <Building2 className="w-7 h-7 text-brand-500" />
+              <img
+                src="/brand/horizonte-icon.png"
+                alt="Horizonte"
+                className="h-8 w-8 object-contain"
+              />
               <span className="text-xl font-bold text-gray-900">Inversiones Horizonte</span>
             </Link>
           </div>

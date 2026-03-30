@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { TrendingUp, Shield, Layers, DollarSign, Handshake, ArrowRight } from 'lucide-react';
+import { TrendingUp, Shield, DollarSign, Handshake, ArrowRight } from 'lucide-react';
 
 const features = [
   {
@@ -28,59 +28,20 @@ export default function Profitability() {
   return (
     <section className="py-12 sm:py-16 md:py-20 lg:py-28 bg-background">
       <div className="container-max px-4 sm:px-6 lg:px-8">
-        <div className="mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-dark text-center mb-4">
-            ¿Qué hacemos?
-          </h2>
-          <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto">
-            Un modelo simple, basado en <span className="font-semibold text-dark">ejecución</span>—<span className="font-semibold text-dark">de</span>—<span className="font-semibold text-dark">disciplinada</span>.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
-          <div className="group bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-lg hover:border-brand-200 hover:-translate-y-1 transition-all duration-300">
-            <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4 group-hover:bg-brand-500 group-hover:scale-110 transition-all duration-300">
-              <Layers className="w-6 h-6 text-brand-500 group-hover:text-white transition-colors" />
-            </div>
-            <h3 className="text-lg font-bold text-dark mb-2 group-hover:text-brand-600 transition-colors">Compra con descuento</h3>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              Adquirimos propiedades bajo valor de mercado mediante remates y oportunidades.
-            </p>
-          </div>
-          <div className="group bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-lg hover:border-brand-200 hover:-translate-y-1 transition-all duration-300">
-            <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4 group-hover:bg-brand-500 group-hover:scale-110 transition-all duration-300">
-              <Shield className="w-6 h-6 text-brand-500 group-hover:text-white transition-colors" />
-            </div>
-            <h3 className="text-lg font-bold text-dark mb-2 group-hover:text-brand-600 transition-colors">Gestión activa</h3>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              Ejecutamos una gestión eficiente del activo, compra, optimización y venta.
-            </p>
-          </div>
-          <div className="group bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-lg hover:border-brand-200 hover:-translate-y-1 transition-all duration-300">
-            <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4 group-hover:bg-brand-500 group-hover:scale-110 transition-all duration-300">
-              <DollarSign className="w-6 h-6 text-brand-500 group-hover:text-white transition-colors" />
-            </div>
-            <h3 className="text-lg font-bold text-dark mb-2 group-hover:text-brand-600 transition-colors">Venta en corto plazo</h3>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              Buscamos una venta eficiente para rotación rápida.
-            </p>
-          </div>
-          <div className="group bg-white rounded-2xl p-6 border border-gray-100 hover:shadow-lg hover:border-brand-200 hover:-translate-y-1 transition-all duration-300">
-            <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-4 group-hover:bg-brand-500 group-hover:scale-110 transition-all duration-300">
-              <TrendingUp className="w-6 h-6 text-brand-500 group-hover:text-white transition-colors" />
-            </div>
-            <h3 className="text-lg font-bold text-dark mb-2 group-hover:text-brand-600 transition-colors">Rentabilidad real</h3>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              Generamos valor real sin depender de la especulación del mercado.
-            </p>
-          </div>
-        </div>
-
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start">
           <div>
-            <h2 className="text-3xl lg:text-4xl font-bold text-dark mb-4">
-              ¿Por qué invertir con nosotros?
-            </h2>
+            <div className="flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-5 mb-4">
+              <img
+                src="/brand/horizonte-icon.png"
+                alt="Inversiones Horizonte"
+                width={72}
+                height={72}
+                className="w-16 h-16 sm:w-[4.5rem] sm:h-[4.5rem] object-contain flex-shrink-0"
+              />
+              <h2 className="text-3xl lg:text-4xl font-bold text-dark">
+                ¿Por qué invertir con nosotros?
+              </h2>
+            </div>
             <p className="text-gray-600 text-lg mb-10">
               No somos un banco ni una corredora tradicional. Somos una plataforma que nació para que personas comunes puedan acceder a inversiones inmobiliarias que antes estaban reservadas solo para grandes capitales. Y lo hacemos con total transparencia.
             </p>
